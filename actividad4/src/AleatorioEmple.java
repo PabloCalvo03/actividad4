@@ -7,6 +7,7 @@ public class AleatorioEmple {
 	public static void main(String[] args) throws IOException {
 		crear();
 		leer();
+		System.out.println("Linea de visualizacion 1");
 	}
 
 	public static void leer() throws IOException {
@@ -40,7 +41,7 @@ public class AleatorioEmple {
 			file.close(); 
 			System.out.println(" ------------------------------------------");
 		} else 
-			System.out.println(" ---------FICHERO VACÍO --------------------");
+			System.out.println(" ---------FICHERO VACï¿½O --------------------");
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
@@ -65,3 +66,5 @@ public class AleatorioEmple {
 	}// fin crear
 
 }// fin class
+
+
